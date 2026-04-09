@@ -52,4 +52,46 @@ body{
     color: rgb(83, 86, 90) !important;
     font-size: 3rem;
 }
+#main-title-agent{
+    color: rgb(83, 86, 90);
+    font-size: 2rem;
+}
 
+/*Contenedor*/
+.container{
+    width: 95%;
+    max-width: 1400px;
+    margin: 40px;
+}
+
+/*Tarjetas de disposicion*/
+.flex-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.contenedor{
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(83, 86, 90);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*Footer*/
+footer {
+    padding: 40px 20px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(83, 86, 90);
+    margin-top: 20px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
